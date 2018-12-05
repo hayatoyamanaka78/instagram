@@ -46,6 +46,9 @@ class PostData: NSObject {
                 break
             }
         }
-        if let comments = valueDictionary["comments"] as? [String] { self.comments = comments }
+        if let comments = valueDictionary["comments"] as? [String] {
+            self.comments = comments
+            
+        }
     }
 }

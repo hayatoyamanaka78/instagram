@@ -56,5 +56,6 @@ class PostTableViewCell: UITableViewCell {
             
         }
         self.commentLabel.text = text
+        self.commentTextField.text = ""
     }
 }
